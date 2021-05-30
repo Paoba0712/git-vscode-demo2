@@ -63,10 +63,13 @@ span {
     margin: auto;
 }
 
-.fabfa-facebook-square {
+.fab.fa-facebook-square {
     color: red;
 }
 
+.Facebook {
+    color: red;
+}
 /* Estilos footer */
 
 footer {
