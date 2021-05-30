@@ -1,14 +1,11 @@
 /* Estilos de body */
-
 body {
     text-align: center;
     font-family: cursive;
     font-size: 15px;
     }
 
-    
 /* Estilos del main */
-
 main {
     background-color: gainsboro;
     padding-top: 20px;
@@ -33,6 +30,8 @@ span {
 
 /*Redes sociales*/
 
+ul {
+    list-style-type: none;
 
 
 /* Estilos de header */
