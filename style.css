@@ -4,7 +4,7 @@ body {
     display: block;
     margin: 8px;
     text-align: center;
-     font-family: cursive;
+    font-family: cursive;
     font-size: medium;
     }
 
@@ -17,6 +17,8 @@ div {
 
 nav {
     background-color: cornflowerblue;
+    color: white;
+    
 }
 
 img {
@@ -26,6 +28,7 @@ img {
 /* Estilos footer */
 
 footer {
+    color: white;
     background-color: cornflowerblue;
 }
 
