@@ -3,3 +3,9 @@ body {
     margin: 8px;
     text-align: center;
 }
+
+div {
+    display: block;
+    background-color: cornflowerblue;
+}
+}
