@@ -15,6 +15,8 @@ main {
     padding-bottom: 30px;
 }
 
+/* Titulos */
+
 h1 {
     color: cornflowerblue;
 }
@@ -23,9 +25,14 @@ h2 {
     color: cornflowerblue;
 }
 
+/*Parrafo*/
+
 span {
     color: red;
 }
+
+/*Redes sociales*/
+
 
 
 /* Estilos de header */
