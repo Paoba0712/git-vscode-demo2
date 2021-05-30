@@ -1,11 +1,25 @@
+/* Estilos de body */
+
 body {
     display: block;
     margin: 8px;
     text-align: center;
 }
 
+/* Estilos de header */
+
 div {
     display: block;
     background-color: cornflowerblue;
 }
+
+nav element.style {
+    background-color: cornflowerblue;
 }
+
+img {
+    padding: 10px;
+}
+
+
+
