@@ -4,6 +4,9 @@ body {
     display: block;
     margin: 8px;
     text-align: center;
+    font-family: cursive;
+    font-size: medium;
+    }
 }
 
 /* Estilos de header */
