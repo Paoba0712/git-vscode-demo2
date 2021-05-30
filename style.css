@@ -70,6 +70,30 @@ span {
 .Facebook {
     color: red;
 }
+
+.fab.fa-instagram-square {
+     color: green;
+}
+
+.Instagram {
+    color: green;
+}
+
+.fab.fa-twitter-square {
+    color: blue;
+}
+
+.Twitter {
+    color: blue;
+}
+
+.fab.fa-linkedin {
+    color: green;
+}
+
+.Linkedin {
+    color: green;
+}
 /* Estilos footer */
 
 footer {
