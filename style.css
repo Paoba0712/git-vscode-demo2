@@ -8,12 +8,22 @@ body {
     font-size: medium;
     }
 
-    /* Estilos del main */
     
-    main {
-         background-color: gainsboro;
-         padding: 10px;
+/* Estilos del main */
+
+main {
+    background-color: gainsboro;
+    padding: 10px;
 }
+
+h1 {
+    color: cornflowerblue;
+}
+
+h2 {
+    color: cornflowerblue;
+}
+
 /* Estilos de header */
 
 div {
