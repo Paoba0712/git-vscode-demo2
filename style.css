@@ -51,8 +51,17 @@ span {
 }
 
 /*Redes sociales*/
+ li {list-style-type: none;
 
+ }
 
+ ul {
+    border-radius: 50%;
+    background-color: yellow;
+    border: solid;
+    width: 200px;
+    margin: auto;
+}
 /* Estilos footer */
 
 footer {
