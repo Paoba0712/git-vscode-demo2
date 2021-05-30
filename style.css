@@ -5,6 +5,27 @@ body {
     font-size: 15px;
     }
 
+    /* Estilos de header */
+
+div {
+    display: block;
+    background-color: cornflowerblue;
+}
+
+nav {
+    background-color: cornflowerblue;
+    color: white;
+
+}
+
+a {
+    color: white;
+}
+
+img {
+    padding: 10px;
+    width:200px;
+}
 /* Estilos del main */
 main {
     background-color: gainsboro;
@@ -31,27 +52,7 @@ span {
 /*Redes sociales*/
 
 
-/* Estilos de header */
 
-div {
-    display: block;
-    background-color: cornflowerblue;
-}
-
-nav {
-    background-color: cornflowerblue;
-    color: white;
-
-}
-
-a {
-    color: white;
-}
-
-img {
-    padding: 10px;
-    width:200px;
-}
 
 /* Estilos footer */
 
