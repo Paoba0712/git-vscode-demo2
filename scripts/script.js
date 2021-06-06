@@ -1,15 +1,16 @@
 
+
 function toggleBloque() {
 
-    var boton = document.getElementById("operacionesContenedor");
+    var demo= document.getElementById("operacionesContenedor");
     
-    if (boton.style.display === "none"){
-        boton.style.display = "block";
-        document.getElementById("operacionesContenedor").textContent = "Ocultar texto";
+    if (demo.style.display === "none") {
+        demo.style.display = "block";
+        document.getElementById("toggleBloque").textContent = "Ocultar texto";
     
     }else {
-        boton.style.display = "none";
-        document.getElementById("operacionesContenedor").textContent = "Mostrar texto";
+        demo.style.display = "none";
+        document.getElementById("toggleBloque").textContent = "Mostrar texto";
       }
     
     }
