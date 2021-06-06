@@ -16,6 +16,6 @@ function toggleBloque() {
     }
     
 
-    function sumar(){
-        var resultado = parseInt(document.getElementById("minumero1").value)+parseInt(document.getElementById("minumero2").value);
+    function sumar() {
+        var resultado = parseInt(document.getElementById("minumero1").value)+ parseInt(document.getElementById("minumero2").value);
     }
