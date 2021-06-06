@@ -6,11 +6,11 @@ function toggleBloque() {
     
     if (demo.style.display === "none") {
         demo.style.display = "block";
-        document.getElementById("toggleBloque").textContent = "Ocultar texto";
+        document.getElementById("toggleBloque").textContent = "Ocultar operaciones";
     
     }else {
         demo.style.display = "none";
-        document.getElementById("toggleBloque").textContent = "Mostrar texto";
+        document.getElementById("toggleBloque").textContent = "Mostrar operaciones";
       }
     
     }
