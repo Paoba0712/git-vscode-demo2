@@ -19,3 +19,12 @@ function toggleBloque() {
     function sumar() {
         var resultado = parseInt(document.getElementById("myNumber1").value)+ parseInt(document.getElementById("myNumber2").value);
     }
+
+    function validarVacios(resultado,operacion) {
+            if(!isNaN(resultado)) {
+                imprimirMensaje(operacion,resultado);
+            } else {
+                document.getElementById('result').textContent = "Debe ingresar valores numericos";
+            }
+        }
+        
