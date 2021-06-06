@@ -15,3 +15,7 @@ function toggleBloque() {
     
     }
     
+
+    function sumar(){
+        var resultado=parseInt(document.getElementById('minumero1').value)+ (document.getElementById("minumero2").value);
+    }
