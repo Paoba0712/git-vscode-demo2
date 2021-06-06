@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tarea 3</title>
+    <title>Tarea 4</title>
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/c672bf2245.js" crossorigin="anonymous"></script> 
       
@@ -41,12 +41,25 @@
         <li><i class="fab fa-twitter-square"></i> <a class="Twitter" href="https://twitter.com/" target="_blank">Twitter</a></li>
         <li> <i class="fab fa-linkedin"></i> <a class="Linkedin" href="https://www.linkedin.com/" target="_blank">Linkedin</a></li>
 </ul>
+<button id="toggleBloque" onclick="toggleSection()">Mostrar Operaciones</button>
 
+<div id="operacionesContenedor">
+    <label for="myNumber1">Numero 1:</label>
+    <input type="number" id="myNumber1">
+    <label for="myNumber2">Numero 2:</label>
+    <input type="number" id="myNumber2">
+    <div class="Operaciones"> 
+        <button onclick="sumar()">Sumar</button>
+        <button onclick="restar()">Restar</button>
+        <button onclick="sumar()">Multiplicar</button>
+    </div>
+    <p id="result>"></p>
+</div>
 </main>
 
 <footer>
     <small>Hecho por Paola Badilla</small>  
 </footer>
-
+<script src="scripts/script.js"></script>
 </body>
 </html>
