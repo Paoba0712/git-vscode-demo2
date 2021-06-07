@@ -18,6 +18,8 @@ function toggleBloque() {
 
     function sumar() {
         var resultado = parseInt(document.getElementById("myNumber1").value)+ parseInt(document.getElementById("myNumber2").value);
+
+        document.getElementById('resultado').innerHTML = resultado;
     }
 
     function validarVacios(resultado,operacion) {
