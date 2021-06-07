@@ -22,11 +22,7 @@ function toggleBloque() {
 
     function imprSelec(resultado) {
         var ficha = document.getElementById(result).textContent;
-        var ventimp = window.open('resultado', 'popimpr');
-        ventimp.document.write( ficha.innerHTML );
-        ventimp.document.close();
-        ventimp.print( );
-        ventimp.close();
+    
       }
 
     function validarVacios(resultado,operacion) {
