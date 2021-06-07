@@ -20,7 +20,9 @@ function toggleBloque() {
         var resultado = parseInt(document.getElementById("myNumber1").value)+ parseInt(document.getElementById("myNumber2").value);
 
         document.getElementById('resultado').innerHTML = resultado;
-    }
+    };
+
+    sumar (3,4);
 
     function validarVacios(resultado,operacion) {
             if(!isNaN(resultado)) {
