@@ -18,11 +18,16 @@ function toggleBloque() {
 
     function sumar() {
         var resultado = parseInt(document.getElementById("myNumber1").value)+ parseInt(document.getElementById("myNumber2").value);
+    }
 
-        document.getElementById('resultado').innerHTML = resultado;
-    };
-
-    sumar (3,4);
+    function imprSelec(resultado) {
+        var ficha = document.getElementById(result);
+        var ventimp = window.open('resultado', 'popimpr');
+        ventimp.document.write( ficha.innerHTML );
+        ventimp.document.close();
+        ventimp.print( );
+        ventimp.close();
+      }
 
     function validarVacios(resultado,operacion) {
             if(!isNaN(resultado)) {
@@ -31,4 +36,6 @@ function toggleBloque() {
                 document.getElementById('result').textContent = "Debe ingresar valores numericos";
             }
         }
-        
+
+     
+     
