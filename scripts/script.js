@@ -20,7 +20,7 @@ function toggleBloque() {
         var resultado = parseInt(document.getElementById("myNumber1").value)+ parseInt(document.getElementById("myNumber2").value);
     }
 
-    function imprSelec(resultado) {
+    function imprSelec(sumar) {
         var ficha = document.getElementById(result).textContent;
     
       }
